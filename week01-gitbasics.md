@@ -1,6 +1,4 @@
-# Week One
-Git Basics - Teacher Notes
-
+# Week One - Git Basics
 ## What is Git
 Let's take about what Git is and what makes it different.
 - **Track changes over time**
