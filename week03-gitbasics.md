@@ -1,4 +1,4 @@
-## Collaborators Review
+  ## Collaborators Review
 Let's start by going over how collaborators work, although it's something we've covered before.
 
 Collaborators are a simple way to add members to your repos and give them access to files and projects. This also works in a team environment.
@@ -20,6 +20,7 @@ Collaborators will have access to:
 4. Hit the `Add people` button.
 5. Search for another user by username. You may use your teacher's account `planetoftheweb` if you need to invite someone. You can also use: **jojohumphreys**, **miguelmiles**, **rogeliogreco** and **noelmiles**.
 
+---
 ## Organizations
 Businesses and open source project can collaborate across a group of repos. You can create organizations [for free](https://github.com/organizations/plan) with certain limits. 
 
@@ -37,6 +38,8 @@ You can add codespaces or copilot as add ons to free organizations. They cost $4
 2. Connect it to your personal account
 3. Accept the Terms of service
 4. Hit the next button
+
+---
 ## Organization Options
 Organizations have their own tabs and preferences.
 - **Overview** shows you a README file from one of two repositories.
@@ -47,7 +50,6 @@ Organizations have their own tabs and preferences.
 - **Teams** can give members different permissions.
 - **People** with access to your repo are stored in a single place.
 - **Settings** show you additional options.**
-
 ### Exercise
 Add a public repo with some welcome text.
 1. Create a new repo called `.github`
@@ -58,6 +60,8 @@ Add a private repo with some welcome text.
 1. Create a private repo named `.github-private`
 2. Create a file called `/profile/README.md`
 3. Here's some [sample text](https://gist.githubusercontent.com/planetoftheweb/ed83fc2924ff4f9fa7287e7354de1167/raw/8765660d8a4ece3d3b426ecabd9d29e901fdee3a/privatewelcome.md) you can use.
+
+---
 ## Organization Discussions
 
 Organizations can also have discussions.
@@ -72,7 +76,7 @@ Add a discussion to your organization repo.
 2. Choose the `.github-private` repository as the default repo.
 3. Create a single post.
 
-
+---
 ## People
 The People tab allows you to add members and manage collaborators to your repository.
 - Invite members as usual.
@@ -81,7 +85,6 @@ The People tab allows you to add members and manage collaborators to your reposi
 - You can also see the `outside collaborators` that have been granted access to specific repos.
 - The permissions of collaborators are limited to the repos they have access to, whereas `members` have the same permissions for the whole repo.
 - You can `manage invitations` and see pending collaborators as well.
-
 ### Exercise
 Invite a few members to your repository.
 1. Click on the people tab inside your organization
@@ -89,6 +92,7 @@ Invite a few members to your repository.
 3. Add people to your organization
 4. Search for users by username. You may use your teacher's account `planetoftheweb` if you need to invite someone. You can also use: **jojohumphreys**, **miguelmiles**, **rogeliogreco** and **noelmiles**.
 
+---
 ## Organization Roles
 Roles control the access people or teams get within the organization.
 - All-repository read. Basic role. Gives read access to all repos without management capabilities
@@ -105,6 +109,7 @@ Give an individual a triage role.
 4. Click on `New role assignment` button
 5. Choose the `All-repository triage` role
 
+---
 ## Member privileges
 These let you control everything members are able to do by default as members.
 - **Base permissions**. Lets you choose the default permission
@@ -117,6 +122,7 @@ These let you control everything members are able to do by default as members.
 - **Admin permissions**. Other permissions like if they are allowed to change issue visibility, delete or transfer repos, delete issues.
 - **Team Creation**. Can the member create teams.
 
+---
 ## Teams
 A way to assign roles to groups of people instead of individuals.
 - Makes it flexible to manage what groups of people are able to do.
@@ -124,8 +130,7 @@ A way to assign roles to groups of people instead of individuals.
 - Teams can be @mentioned in communications (discussions, readme’s etc.)
 - Teams can also have parent teams for ease when organizing.
 - Teams have their own set of preferences and controls.
-
-## Exercise
+### Exercise
 Create one or two teams. You'll need to have some people added to your organization. One team could be for the QA Team and another for Developers.
 
 1. Click on the `Teams` tab
@@ -135,6 +140,7 @@ Create one or two teams. You'll need to have some people added to your organizat
 5. Add people to your teams
 6. Assign the team a role
 
+---
 ## Projects
 Projects are a way to organize and track issues with different views. Multiple tabs
 - You can get started with templates like Team Planning and Feature Release or choose one of the three manual options.
@@ -152,6 +158,8 @@ Create a new project
 4. Give the project a name
 5. Hit the `Create project` button
 6. Edit the project name and description.
+
+---
 ## Tables
 Powerful spreadsheet template. You can filter, sort and group. You can also add your own columns and your own tabs.
 - At the top is the Project Title. Click to enter a title, description and a README.
@@ -163,12 +171,28 @@ Powerful spreadsheet template. You can filter, sort and group. You can also add 
 - Once you create a task, you can click on it’s name to see the details.
 - You can use # to tie the task to a repo
 ### Exercise
-Create a new project
-1. Go to the project you just created
-2. Edit 
-3. Add several `Draft` tasks
-4. Add `assignees` and `statuses`
-5. Try adding more `columns`
+Add table views to your project.
+1. Go to the `project` you just created
+2. Click on the `title` to see the Project Settings
+3. Explore some of the fields available for modifying your project information.
+4. Add a Short description as well as some content to the READ ME section.
+5. Hit the **Save changes** button.
+### Exercise
+Take a look at the more options in Project settings
+1. Click on the `Manage access` tab
+2. Look at the options available there
+3. Pay close attention at the people listed under the **Manage access** section
+### Exercise
+Create draft items
+1. Click on the first tab under the project title.
+2. Change the name to something like `table view`
+3. Click on the triangle dropdown to see additional options
+4. In the `Title column` click on the first item to add a new draft item
+5. In the `Assignees` column,  click to pick one or more assignees to your draft item.
+6. Click on the Status column and choose `Todo` as the status
+7. Add a series of additional draft items
+
+---
 ## Issues
 You can convert tasks to issues for some additional capabilities.
 - Converting to Issues requires that you specify a repo. 
@@ -179,8 +203,99 @@ You can convert tasks to issues for some additional capabilities.
 - You can use the filter section to modify specific views and do things like create a view with just tasks assigned to you.
 - You can add a totally new custom field.
 ### Exercise
+Convert draft items to issues
+1. Click on the `title` of a draft item to see the sidebar window.
+2. On the right, click on the `Convert to issue` link
+3. In the `dropdown`, choose an `existing repository` to assign this to
+4. Look at the `additional options` available, which are common to issues.
+### Exercise
+Add new columns to table views.
+1. Go back to the `main table` view
+2. On one of your `Issues`,  look for the `plus (+)` sign at the end of the current columns
+3. Click on the `Plus` button
+4. Choose `Labels` from the list
+5. On the new Labels column, look for the `triangle dropdown`.
+6. Click on it to select labels for one of the issues
+### Exercise
+Create a new field.
+1. Click on the  plus (+) sign at the end of the current columns again.
+2. Click on + New field
+3. Create a field called Website URL
+4. Add a website URL to one of your Issues
+### Exercise
+When you change a view tab, you can save the changes to the table view
+1. Look in current tab for the blue dot, showing that you've made changes to the view.
+2. Look in the right next to the filter text box and hit the save button to save your new view
+3. Click on the name of the current view and change it to `Table view`
+### Exercise
+Create a custom view showing the issues you're assigned to.
+1. Make sure that at least of one of the issues you created, you have made yourself the `assignee`.
+2. Next to the tabs under the title, look for a `New view` link.
+3. From the dropdown choose `Table`
+4. Click on the tab to rename your view, call it `Assigned to me`
+5. Under the Filter section, type in `assignee:`
+6. From the dropdown, choose `your account`.
+7. Look for the save button to the right of the filters and click `Save`.
 
-Issues are how you connect draft tasks to items in your issues tab.
-1. Convert a Task `to an Issue`
-2. Assign it a `Repo`
-3. Add issue related options
+---
+## Boards
+Boards allow you to move tasks in a two dimensional space that allows you to visually see different status.
+1. Boards show the status of your tasks.
+2. The default statuses are: Todo, In Progress and Done, but you can also add custom statuses.
+3. These are the oldest types of project views and they are inspired by Kanban boards from the agile methodology.
+4. You can easily move tasks from one column to another as you work through a project.
+5. The moves are logged and tracked into your project’s history.
+6. Kanban boards can still be filtered so that you can create a view with only your order.
+7. Each column has a set of options under … that lets you archive, delete, set a limit for how many items show, 
+### Exercise
+Create a new Boards style tab
+1. In the tabs, click on the `+ New view` option
+2. Choose the `Board` option from the dropdown
+3. Rename the board by clicking on the tab title, call it `Kanban`
+4. If you added statuses to your issues in table view, they should show up here.
+
+### Exercise
+Modify the status of one of the issues
+1. `Click and drag` one of the `issues` from an existing column to another one
+2. `Click` on a different `tab` to see the status has changed there as well.
+3. Click back on the `Kanban tab.`
+### Exercise
+Add a new column to the board view
+1. To the right of all columns look for the `plus (+)` button.
+2. Click on that button, then choose `New Column`
+3. On the pop-up Type in `Backlog`, then optionally choose a color not in one of the current tabs.
+4. Click `Save`
+### Exercise
+Change the position of the column, 
+1. Click on the `title` of the `column` and drag
+2. You should see a `thick blue` border
+3. Let go to move the column
+4. Move one of the issues into the new column
+5. Click the `Save` button to the right of the filters to save the changes to the view.
+
+---
+## Timeline
+These views let you see a timeline view for when tasks are related to at least one date or iteration field.
+- The easiest would be a Start date and End date.
+- To create a timeline, you can click and drag
+- These fields are added as custom fields.
+- You can show different markers, sort, look at the project by month quarter or year.
+### Exercise
+
+---
+## Status Update
+You can create short messages that help communicate the status of the project.
+- The easiest would be a Start date and End date.
+- To create a timeline, you can click and drag
+- These fields are added as custom fields.
+- You can show different markers, sort, look at the project by month quarter or year.
+### Exercise
+
+---
+
+## Insights
+Create graphs and charts based on the data on a project.
+- You can create different visuals based on the data for the project
+- You can create: bar, column, line, stacked area, stacked bar, stacked column.
+- Control the x or y axes, group by the status 
+### Exercise
