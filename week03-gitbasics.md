@@ -1,4 +1,4 @@
-  ## Collaborators Review
+## Collaborators Review
 Let's start by going over how collaborators work, although it's something we've covered before.
 
 Collaborators are a simple way to add members to your repos and give them access to files and projects. This also works in a team environment.
@@ -274,28 +274,68 @@ Change the position of the column,
 5. Click the `Save` button to the right of the filters to save the changes to the view.
 
 ---
-## Timeline
+## Roadmap
 These views let you see a timeline view for when tasks are related to at least one date or iteration field.
 - The easiest would be a Start date and End date.
 - To create a timeline, you can click and drag
 - These fields are added as custom fields.
 - You can show different markers, sort, look at the project by month quarter or year.
 ### Exercise
+Create a new Timeline style tab
+1. In the tabs, click on the `+ New view` option
+2. Choose the `Roadmap` option from the dropdown
+3. Rename the Roadmap by clicking on the tab title, call it `Timeline`
+### Exercise
+A roadmap requires having at least one date field. Let's add two new fields.
+1. To the right of the roadmap, under the filter area, look for the `Date fields` dropdown.
+2. Click on `New field`
+3. Call the field `Start`
+4. Choose `Date` as the field type.
+5. Click on save
+
+### Exercise
+Finish setting up the timeline
+1. Repeat the process for another field called `End`
+2. Click on the `Date fields` dropdown again
+3. Choose the new `Start` field under the heading `Start date`
+4. Choose the new `End` field under the heading `End date`
+### Exercise
+Add a start and end date to some of the issues.
+1. Under the range of dates, click on a start date next to an issue
+2. Once you see the end date, click and drag to set the end date.
+3. Continue setting an end date for other issues
 
 ---
 ## Status Update
 You can create short messages that help communicate the status of the project.
-- The easiest would be a Start date and End date.
-- To create a timeline, you can click and drag
-- These fields are added as custom fields.
-- You can show different markers, sort, look at the project by month quarter or year.
+- These messages will update your users to let them know the status of the project
+- You can add status types of: `Inactive`, `On track`, `At risk`, `Off track` or `Complete`
+- You can add a Start date and a Target date
 ### Exercise
+Create a Status message
+1. To the right, on top of the filters, look for the `Add status update`
+2. Under the Status button choose one of the tags:  `Inactive`, `On track`, `At risk`, `Off track` or `Complete`
+3. Click on the `Start date` button and choose a date
+4. Click on the `Target date` button and choose a date
+5. Type in a Description and choose the `Save update` button
+6. Click on the close button at the top right to close the view.
+7. Notice the status should now mirror your tag as (i.e. 'On track')
 
 ---
-
 ## Insights
 Create graphs and charts based on the data on a project.
 - You can create different visuals based on the data for the project
 - You can create: bar, column, line, stacked area, stacked bar, stacked column.
 - Control the x or y axes, group by the status 
 ### Exercise
+Take a look at insights for your project.
+1. On top of the filters look for the insights icon next to the status
+2. Click on insights.
+3. You should be able to see a simple status chart.
+4. Click on configure to see a list of options to control the `layout`, `x or y axes` and how to `group the data`.
+### Exercise
+Add another chart
+1. On the left under `Custom charts`
+2. Click on the `New chart` button.
+3. Configure and customize this new chart with options from the configure section.
+4. To rename a chart, click on the pencil icon to the left of the `configure` button.
